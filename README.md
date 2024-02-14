@@ -2,7 +2,7 @@
 ## Instalação e ativação do qemu-guest-agent no pfSense 2.7.2 virtualizado no Proxmox 8.x
 
 ## Vamos para o Procedimento ?
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
+<img src="https://blog.zwindler.fr/2017/08/proxmox_logo.png" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
 <img src="https://toppng.com/uploads/preview/fsense-set-static-ip-for-a-specific-openvpn-client-firewall-pfsense-11563035057saouyckles.png" width="40" height="40"/>
                 
 ####################################################################
