@@ -17,13 +17,19 @@
 ## 2. Instalação / Configuração
 ####################################################################
 
-- 2.1. Instalação dos pacotes necessários
+- 2.1. Instalação dos pacotes necessários para edição de arquivos, caso precise editar algum arquivo
+
+```
+pkg install -y pkgconf bash e2fsprogs-libuuid libuv nano
+```
+
+- 2.2. Instalação do pacote qemu-guest-agent
 
 ```
 pkg install -y qemu-guest-agent
 ```
 
-- 2.2. Adicionando variaveis dentro de "/etc/rc.conf.local"
+- 2.3. Adicionando variaveis dentro de "/etc/rc.conf.local"
 
 ```
 cat > /etc/rc.conf.local << EOF
@@ -33,7 +39,7 @@ qemu_guest_agent_flags="-d -v -l /var/log/qemu-ga.log"
 EOF
 ```
 
-- 2.3. Configurando o arquivo "/usr/local/etc/rc.d/qemu-agent.sh" para subir o serviço do qemu-guest-agent
+- 2.4. Configurando o arquivo "/usr/local/etc/rc.d/qemu-agent.sh" para subir o serviço do qemu-guest-agent
 
 ```
 cat > /usr/local/etc/rc.d/qemu-agent.sh << EOF
@@ -43,13 +49,13 @@ service qemu-guest-agent start
 EOF
 ```
 
-- 2.4. Setando a permissão de execução no arquivo "/usr/local/etc/rc.d/qemu-agent.sh"
+- 2.5. Setando a permissão de execução no arquivo "/usr/local/etc/rc.d/qemu-agent.sh"
 
 ```
 chmod +x /usr/local/etc/rc.d/qemu-agent.sh
 ```
 
-- 2.5. Subindo o serviço
+- 2.6. Subindo o serviço
 
 ```
 service qemu-guest-agent start
@@ -63,7 +69,7 @@ service qemu-guest-agent start
 #### Procedimento: Install-qemu-guest-agent-on-Pfsense-on-proxmox
 #### @Responsável: Miller Santos
 #### @Data: 14/02/2024
-#### @Versão: 1.0
+#### @Versão: 1.0.1
 #### @Homologado: Pfsense 2.7.2
 ####################################################################
 
