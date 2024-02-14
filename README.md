@@ -1,7 +1,7 @@
 # Install-qemu-guest-agent-on-Pfsense-on-proxmox
 ## Instalação e ativação do qemu-guest-agent no pfSense 2.7.2 virtualizado no Proxmox 8.x
 
-## Vamos para o Script ?
+## Vamos para o Procedimento ?
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
                 
 ####################################################################
