@@ -12,6 +12,7 @@
 - 1.2. Pfsense 2.7.2 Virtualizado
 - 1.3. Acesso a internet para download e instalação de pacotes
 - 1.4. Acesso de root ao Firewall Pfsense
+- 1.5. Não esqueça de fazer o backup do XML e também tirar um snapshot antes
 
 ####################################################################
 ## 2. Instalação / Configuração
