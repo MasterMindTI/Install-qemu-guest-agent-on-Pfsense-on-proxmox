@@ -13,7 +13,7 @@
 - 1.3. Acesso a internet para download e instalação de pacotes
 - 1.4. Acesso de root ao Firewall Pfsense
 - 1.5. Não esqueça de fazer o backup do XML e também tirar um snapshot antes de executar
-- 1.6. Caso de tudo certo, não esqueça de escluir o snapshot criado
+- 1.6. Caso de tudo certo, não esqueça de excluir o snapshot criado
 
 ####################################################################
 ## 2. Instalação / Configuração
