@@ -71,7 +71,7 @@ service qemu-guest-agent start
 #### Procedimento: Install-qemu-guest-agent-on-Pfsense-on-proxmox
 #### @Responsável: Miller Santos
 #### @Data: 14/02/2024
-#### @Versão: 1.0.1
+#### @Versão: 1.0.3
 #### @Homologado: Pfsense 2.7.2
 ####################################################################
 
